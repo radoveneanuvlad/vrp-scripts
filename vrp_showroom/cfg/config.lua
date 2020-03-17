@@ -1,0 +1,52 @@
+local cfg = {}
+
+cfg.showgarage = {
+  vehicles = {
+   				{name = "Bugatti Veyron VIP", costs = 5000000, description = {}, model = "bugatti"},
+				{name = "Lamborghini Centenario VIP", costs = 5000000, description = {}, model = "lp770r"},
+				{name = "Koenigsegg Regera VIP", costs = 5000000, description = {}, model = "regera"},
+				{name = "Dodge Challenger VIP", costs = 5000000, description = {}, model = "rampage10"},
+                {name = "Ford Mustang GT VIP", costs = 5000000, description = {}, model = "mgt"},
+				{name = "Bentley Continental", costs = 5000000, description = {}, model = "contgt13"},
+				{name = "Nissan GTR", costs = 5000000, description = {}, model = "gtr"},
+				{name = "McLaren P1", costs = 5000000, description = {}, model = "p1"},
+				{name = "Porsche 911R", costs = 5000000, description = {}, model = "p911r"},
+				{name = "Toyota Supra", costs = 5000000, description = {}, model = "supra2"},
+				{name = "Chevrolet Corvette", costs = 5000000, description = {}, model = "c7"},
+				{name = "BMW x6M", costs = 5000000, description = {}, model = "x6m"},
+                {name = "Aston Martin", costs = 5000000, description = {}, model = "ast"},
+                {name = "BMW i8", costs 5000000, description = {}, model = "i8"},
+                {name = "Viper", costs = 5000000, description = {}, model = "viper"},
+                {name = "Mercedes c63s", costs = 5000000, description = {}, model = "c63s"},
+                {name = "Chevrolet Camaro", costs = 5000000, description = {}, model = "cczl"},
+                {name = "Mercedes Vision GT", costs = 5000000, description = {}, model = "mvisiongt"},
+                {name = "Honda S2000", costs = 5000000, description = {}, model = "ap2"},
+                {name = "BMW M6", costs = 5000000, description = {}, model = "m6f13"},
+				{name = "Audi RS5", costs = 5000000, description = {}, model = "rs5"},
+				{name = "Audi RS7", costs = 5000000, description = {}, model = "rs7"},
+				{name = "Audi R8", costs = 5000000, description = {}, model = "r8ppi"},
+				{name = "BMW E30", costs = 5000000, description = {}, model = "m3e30"},
+				{name = "BMW M4", costs = 5000000, description = {}, model = "m4f82"},
+				{name = "BMW X5M", costs = 5000000, description = {}, model = "x5m13"},
+				{name = "Mercedes GT", costs = 5000000, description = {}, model = "amggt"},
+				{name = "Mercedes ML", costs = 5000000, description = {}, model = "mlbrabus"},
+				{name = "Mercedes GL63", costs = 5000000, description = {}, model = "gl63"},
+                {name = "Mercedes G65", costs = 5000000, description = {}, model = "g65amg"},
+				{name = "Mitsubishi EVO10", costs = 5000000, description = {}, model = "evo10"},
+				{name = "Nissan 370Z", costs = 5000000, description = {}, model = "370z"},
+				{name = "Nissan Titan", costs = 5000000, description = {}, model = "nissantitan17"},
+				{name = "Porsche Panamera", costs = 5000000, description = {}, model = "pturismo"},
+				{name = "Porsche CayenneS", costs = 5000000, description = {}, model = "cayenne"},
+				{name = "Volkswagen Passat", costs = 5000000, description = {}, model = "passat"},
+				{name = "BMW M2", costs = 5000000, description = {}, model = "m2"},
+				{name = "BMW E92", costs = 5000000, description = {}, model = "m3e92"},
+				{name = "Audi A8", costs = 5000000, description = {}, model = "a8fsi"},
+				{name = "Alfa Romeo Giulia", costs = 5000000, description = {}, model = "giulia"},
+				{name = "BMW Seria 7", costs = 5000000, description = {}, model = "lumma750"},
+				{name = "Nissan Skyline", costs = 5000000, description = {}, model = "skyline"},
+				{name = "Jeep SRT", costs = 5000000, description = {}, model = "srt8"},
+                {name = "Audi RS3", costs = 5000000, description = {}, model = "rs3"}
+  }
+}
+
+return cfg
