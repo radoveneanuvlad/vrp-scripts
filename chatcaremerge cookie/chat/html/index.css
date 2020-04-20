@@ -1,0 +1,218 @@
+.color-0{color: #ffffff;}
+.color-1{color: #F27F71;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #42e3ff;}
+.color-6{color: #aa66cc;}
+.color-8{color: #cc0000;}
+
+.color-9{
+    animation: rainbow 3s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+        100%,0%{
+            color: rgb(255,0,0);
+        }
+        8%{
+            color: rgb(255,127,0);
+        }
+        16%{
+            color: rgb(255,255,0);
+        }
+        25%{
+            color: rgb(127,255,0);
+        }
+        33%{
+            color: rgb(0,255,0);
+        }
+        41%{
+            color: rgb(0,255,127);
+        }
+        50%{
+            color: rgb(0,255,255);
+        }
+        58%{
+            color: rgb(0,127,255);
+        }
+        66%{
+            color: rgb(0,0,255);
+        }
+        75%{
+            color: rgb(127,0,255);
+        }
+        83%{
+            color: rgb(255,0,255);
+        }
+        91%{
+            color: rgb(255,0,127);
+        }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}    
+  10%{color: purple;}    
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}    
+  10%{color: purple;}    
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: orange;}
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+.no-grow {
+  flex-grow: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+#app {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+.chat-window {
+  position: absolute;
+  top: 15px;
+  width: 50%;
+  height: 125%;
+  text-shadow: 1px 1px 1px rgba(0,0,0,1.0);
+
+  background-color: rgb(0, 0, 0);
+  -webkit-animation-duration: 2s;
+}
+
+
+.chat-messages {
+  position: relative;
+  height: 125%;
+  margin: 10px;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.chat-input {
+  font-size: 1.1rem;
+  position: absolute;
+
+  top: 325px;
+  left: 15px;
+  width: 38%;
+
+  box-sizing: border-box;
+}
+
+.prefix {
+  position: absolute;
+  margin-top: 2px;
+  left: 4px;
+}
+
+textarea {
+  font-size: 1.1rem;
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+  padding-left: 27px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.671);
+  width: 100%;
+  border-width: 0;
+  height: 34px;
+  overflow: hidden;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.msg {
+  margin-bottom: 3px;
+}
+
+.multiline {
+  margin-left: 1.5rem;
+  text-indent: -1.5rem;
+  white-space: pre-line;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 27px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.0);
+  width: 100%;
+}
+
+.help {
+  color: #b0bbbd;
+}
+
+.disabled {
+  color: #b0bbbd;
+}
+
+.suggestion {
+  margin-bottom: 5px;
+}
